@@ -3,10 +3,10 @@
    ```python
    >>> now = time.time()  # 当前时间 float类型
    >>> time.strftime("%Y-%m-%d %H:%M:%S")  #当前时间 str
-     '2016-11-04 15:29:58'
+   '2016-11-04 15:29:58'
    
    >>> time.ctime()   # 当前时间 english str
-     'Fri Nov 4 15:40:42 2016'
+   'Fri Nov 4 15:40:42 2016'
    
    >>> time.time()
    1478244363.875308
