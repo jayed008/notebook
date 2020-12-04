@@ -1,0 +1,5 @@
+1. [kafka docker安装](https://blog.csdn.net/boling_cavalry/article/details/85395080)
+2. [Python服务Dokcer化并k8s部署实例](https://blog.csdn.net/qq_24095941/article/details/85761609)
+3. [k8s部署Kafka集群](https://www.jianshu.com/p/fe0cc132da22)
+4. [安装 Kubernetes](https://github.com/gotok8s/gotok8s#helm)
+
