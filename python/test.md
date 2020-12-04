@@ -1,2 +1,1 @@
-![1](../images/github.jpeg){:width="100px" height="100px"}
-
+<img style="width:50px;height:50px" src="../images/github.jpeg"  alt="真棒" align=center />
