@@ -1,0 +1,1 @@
+`/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pyflink/bin/start-scala-shell.sh local ` 开启本地flink shell
