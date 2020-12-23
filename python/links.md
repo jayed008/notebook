@@ -10,3 +10,5 @@
 
 6. [plt包的线条样式和颜色](https://www.cnblogs.com/darkknightzh/p/6117528.html)
 
+7. [etl库petl](https://petl.readthedocs.io/en/stable/intro.html)
+8. [etl库pygrametl](http://chrthomsen.github.io/pygrametl/doc/quickstart/beginner.html)
