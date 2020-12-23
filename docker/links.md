@@ -3,3 +3,4 @@
 3. [k8s部署Kafka集群](https://www.jianshu.com/p/fe0cc132da22)
 4. [安装 Kubernetes](https://github.com/gotok8s/gotok8s#helm)
 5. [docker安装redis集群](https://my.oschina.net/dslcode/blog/1936656)
+6. [Strimzi provides a way to run an Apache Kafka cluster on Kubernetes in various deployment configurations](https://strimzi.io/quickstarts/)
