@@ -12,3 +12,4 @@
 
 7. [etl库petl](https://petl.readthedocs.io/en/stable/intro.html)
 8. [etl库pygrametl](http://chrthomsen.github.io/pygrametl/doc/quickstart/beginner.html)
+9. [python 加速运行库](https://numba.readthedocs.io/en/stable/user/installing.html)
