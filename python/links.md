@@ -14,3 +14,4 @@
 8. [etl库pygrametl](http://chrthomsen.github.io/pygrametl/doc/quickstart/beginner.html)
 9. [加速运行库numba](https://numba.readthedocs.io/en/stable/user/installing.html)
 10. [python的VBA库pyxll](https://www.pyxll.com/docs/index.html)
+11. [pyspark教程](http://dblab.xmu.edu.cn/blog/1709-2/)
