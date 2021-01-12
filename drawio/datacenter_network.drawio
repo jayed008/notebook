@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T02:34:09.401Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="j5vd2aYC4Kn6O93uH768" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-12T02:48:41.747Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="_P18xfPh3TI9Ox3F0C7M" version="14.1.8" type="github">
   <diagram name="Page-1" id="e3a06f82-3646-2815-327d-82caf3d4e204">
     <mxGraphModel dx="1678" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -125,7 +125,7 @@
             <mxPoint x="747.9972369094321" y="668.7500000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="A9i1_2r06wziE7NqVmH8-68" value="行情" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" parent="A9i1_2r06wziE7NqVmH8-67" vertex="1" connectable="0">
+        <mxCell id="A9i1_2r06wziE7NqVmH8-68" value="行情/基本面" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=21;" parent="A9i1_2r06wziE7NqVmH8-67" vertex="1" connectable="0">
           <mxGeometry x="0.1133" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
