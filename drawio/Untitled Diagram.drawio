@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-26T09:00:29.170Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="fN6S0j67IVfvX_j86uaJ" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-26T09:02:56.605Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="FRxthNi8j4sQCPXFzvD9" version="14.5.1" type="github">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="946" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -144,7 +144,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="YW8MqsATVoZjDShnHfKY-27" value="&lt;span style=&quot;font-size: 15px&quot;&gt;Y为执行成功触发下一步执行&lt;br&gt;N为执行失败重试&lt;br&gt;步骤1、步骤2与步骤3的允许时间互斥&lt;br&gt;&lt;/span&gt;" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;strokeColor=#000000;" parent="1" vertex="1">
+        <mxCell id="YW8MqsATVoZjDShnHfKY-27" value="&lt;span style=&quot;font-size: 15px&quot;&gt;Y为执行成功触发下一步执行&lt;br&gt;N为执行失败重试&lt;br&gt;步骤1、步骤2与步骤3的运行时间互斥&lt;br&gt;&lt;/span&gt;" style="text;html=1;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="320" y="630" width="260" height="90" as="geometry" />
         </mxCell>
       </root>
