@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-03-31T12:45:28.728Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="GMIbmsfdDWYaXtklUgrX" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-31T12:47:51.403Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="yBexo98OxOCX2LUtAuNP" version="14.5.3" type="github">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
         <mxCell id="1672d66443f91eb5-1" value="&lt;p style=&quot;margin: 4px 0px 0px 10px; text-align: left; font-size: 16px;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;A股行情实盘数据部署&lt;/b&gt;&lt;/p&gt;" style="html=1;strokeWidth=1;shape=mxgraph.sysml.package;html=1;overflow=fill;whiteSpace=wrap;fillColor=none;gradientColor=none;fontSize=16;align=center;labelX=327.64;" parent="1" vertex="1">
-          <mxGeometry x="317" y="295" width="1120" height="650" as="geometry" />
+          <mxGeometry x="317" y="295" width="1003" height="565" as="geometry" />
         </mxCell>
         <mxCell id="BeP2GAJUtShJ0mvzGdoW-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;labelBorderColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="520" y="400" width="540" height="370" as="geometry" />
@@ -143,6 +143,15 @@
         <mxCell id="BeP2GAJUtShJ0mvzGdoW-22" value="保持可用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="BeP2GAJUtShJ0mvzGdoW-20">
           <mxGeometry x="-0.2704" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BeP2GAJUtShJ0mvzGdoW-23" value="数据获取" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BeP2GAJUtShJ0mvzGdoW-24" value="" style="endArrow=classic;html=1;fontSize=16;startArrow=none;startFill=0;" edge="1" parent="1" source="BeP2GAJUtShJ0mvzGdoW-14" target="BeP2GAJUtShJ0mvzGdoW-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="611" as="sourcePoint" />
+            <mxPoint x="887" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
