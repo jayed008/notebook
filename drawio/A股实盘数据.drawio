@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-31T12:49:01.824Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="R5AhPr8ZYkyw127GeXPb" version="14.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-31T12:51:36.717Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="uj5qlIp9M1elX6buqB2j" version="14.5.3" type="github">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="1426" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -90,8 +90,8 @@
         <mxCell id="BeP2GAJUtShJ0mvzGdoW-8" value="数据同步程序" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="685" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BeP2GAJUtShJ0mvzGdoW-9" value="数据过期删除" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="550" y="580" width="120" height="60" as="geometry" />
+        <mxCell id="BeP2GAJUtShJ0mvzGdoW-9" value="数据过期删除&lt;br&gt;/数据校验" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="545" y="580" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BeP2GAJUtShJ0mvzGdoW-10" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="1" source="BeP2GAJUtShJ0mvzGdoW-8" target="BeP2GAJUtShJ0mvzGdoW-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -120,7 +120,7 @@
         <mxCell id="BeP2GAJUtShJ0mvzGdoW-17" value="supervisor" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="757" y="700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BeP2GAJUtShJ0mvzGdoW-18" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="1" source="BeP2GAJUtShJ0mvzGdoW-5" target="BeP2GAJUtShJ0mvzGdoW-17">
+        <mxCell id="BeP2GAJUtShJ0mvzGdoW-18" value="" style="endArrow=none;html=1;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" source="BeP2GAJUtShJ0mvzGdoW-5" target="BeP2GAJUtShJ0mvzGdoW-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="680" y="620" as="sourcePoint" />
             <mxPoint x="725" y="620" as="targetPoint" />
@@ -131,7 +131,7 @@
             <mxPoint x="3.26" y="7.65" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BeP2GAJUtShJ0mvzGdoW-20" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="1" source="BeP2GAJUtShJ0mvzGdoW-14" target="BeP2GAJUtShJ0mvzGdoW-17">
+        <mxCell id="BeP2GAJUtShJ0mvzGdoW-20" value="" style="endArrow=none;html=1;fontSize=16;startArrow=classic;startFill=1;endFill=0;" edge="1" parent="1" source="BeP2GAJUtShJ0mvzGdoW-14" target="BeP2GAJUtShJ0mvzGdoW-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="779" y="660" as="sourcePoint" />
             <mxPoint x="809" y="710" as="targetPoint" />
@@ -149,6 +149,20 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="910" y="611" as="sourcePoint" />
             <mxPoint x="887" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BeP2GAJUtShJ0mvzGdoW-25" value="crontab" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="550" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BeP2GAJUtShJ0mvzGdoW-26" value="" style="endArrow=classic;html=1;fontSize=16;" edge="1" parent="1" source="BeP2GAJUtShJ0mvzGdoW-25" target="BeP2GAJUtShJ0mvzGdoW-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="690" as="sourcePoint" />
+            <mxPoint x="860" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BeP2GAJUtShJ0mvzGdoW-28" value="定时运行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="BeP2GAJUtShJ0mvzGdoW-26">
+          <mxGeometry x="-0.2667" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
