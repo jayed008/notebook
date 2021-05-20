@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-19T10:29:25.930Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="wa2SD83ugSoavG_yPAeh" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-20T01:27:08.319Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="PRJYJbDtr1t3lLyHL73E" version="14.6.13" type="github">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="3179.5" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -195,7 +195,7 @@
             <mxPoint x="740" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DJqlXa8Qvgp3mCInFXNU-44" value="采用异步的方式执行实时数据采集和策略逻辑运行" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="DJqlXa8Qvgp3mCInFXNU-44" value="按照固定的时间间隔运行" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="897.5" y="440" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DJqlXa8Qvgp3mCInFXNU-45" value="backtest.on_tick" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
@@ -213,8 +213,8 @@
         <mxCell id="DJqlXa8Qvgp3mCInFXNU-47" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;align=left;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="989.38" y="143.75" width="16.25" height="786.25" as="geometry" />
         </mxCell>
-        <mxCell id="DJqlXa8Qvgp3mCInFXNU-49" value="broker.sell&lt;br&gt;broker.buy等" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="840" y="685" width="99.5" height="60" as="geometry" />
+        <mxCell id="DJqlXa8Qvgp3mCInFXNU-49" value="broker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="960" y="685" width="99.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DJqlXa8Qvgp3mCInFXNU-50" value="pre-runner.run" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="610" y="560" width="135" height="60" as="geometry" />
@@ -271,7 +271,7 @@
           <mxGeometry x="124.75" y="485" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="DJqlXa8Qvgp3mCInFXNU-67" value="context" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="975.5" y="685" width="89.5" height="60" as="geometry" />
+          <mxGeometry x="840.5" y="685" width="89.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DJqlXa8Qvgp3mCInFXNU-74" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=16;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -318,25 +318,25 @@
             <mxPoint x="1290" y="860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Dj0rJpAY_3SVC8K4VT7N-1" value="实时数据采集" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="Dj0rJpAY_3SVC8K4VT7N-1" value="实时数据采集" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="1292.5" y="685" width="89.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Dj0rJpAY_3SVC8K4VT7N-2" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=16;" edge="1" parent="1">
+        <mxCell id="Dj0rJpAY_3SVC8K4VT7N-2" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=16;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1336.75" y="685" as="sourcePoint" />
             <mxPoint x="1336.75" y="635" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Dj0rJpAY_3SVC8K4VT7N-6" value="异步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Dj0rJpAY_3SVC8K4VT7N-6" value="异步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1292.5" y="650" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Dj0rJpAY_3SVC8K4VT7N-7" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="DJqlXa8Qvgp3mCInFXNU-67">
+        <mxCell id="Dj0rJpAY_3SVC8K4VT7N-7" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1290" y="715" as="sourcePoint" />
             <mxPoint x="1100" y="715" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Dj0rJpAY_3SVC8K4VT7N-8" value="更新缓存里的实时行情、账户信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Dj0rJpAY_3SVC8K4VT7N-8" value="更新缓存里的实时行情、账户信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1140" y="720" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
