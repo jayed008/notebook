@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-20T01:24:00.464Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="OE7ICNpasFYI718-Qlv0" version="14.6.13" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-20T01:27:08.319Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="PRJYJbDtr1t3lLyHL73E" version="14.6.13" type="github">
   <diagram name="Page-1" id="929967ad-93f9-6ef4-fab6-5d389245f69c">
     <mxGraphModel dx="3179.5" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="DJqlXa8Qvgp3mCInFXNU-70" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;align=left;" parent="1" vertex="1">
           <mxGeometry x="602.5" y="550" width="790" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="1672d66443f91eb5-1" value="&lt;p style=&quot;margin: 4px 0px 0px 10px ; text-align: left ; font-size: 16px&quot;&gt;&lt;b&gt;回测运行逻辑&lt;/b&gt;&lt;/p&gt;" style="html=1;strokeWidth=2;shape=mxgraph.sysml.package;html=1;overflow=fill;whiteSpace=wrap;gradientColor=none;fontSize=16;align=center;labelX=161;shadow=0;sketch=0;fillColor=none;connectable=0;" parent="1" vertex="1">
+        <mxCell id="1672d66443f91eb5-1" value="&lt;p style=&quot;margin: 4px 0px 0px 10px ; text-align: left ; font-size: 16px&quot;&gt;&lt;b&gt;实盘运行逻辑&lt;/b&gt;&lt;/p&gt;" style="html=1;strokeWidth=2;shape=mxgraph.sysml.package;html=1;overflow=fill;whiteSpace=wrap;gradientColor=none;fontSize=16;align=center;labelX=161;shadow=0;sketch=0;fillColor=none;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="-70" y="380" width="1530" height="690" as="geometry" />
         </mxCell>
         <mxCell id="1672d66443f91eb5-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;jettySize=auto;orthogonalLoop=1;endArrow=circlePlus;endFill=0;fontSize=16;" parent="1" edge="1">
@@ -195,7 +195,7 @@
             <mxPoint x="740" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DJqlXa8Qvgp3mCInFXNU-44" value="按照交易日历遍历runner：tick之前操作，tick中的操作，tick之后的操作" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="DJqlXa8Qvgp3mCInFXNU-44" value="按照固定的时间间隔运行" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="897.5" y="440" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DJqlXa8Qvgp3mCInFXNU-45" value="backtest.on_tick" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
@@ -213,11 +213,8 @@
         <mxCell id="DJqlXa8Qvgp3mCInFXNU-47" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=16;align=left;rotation=90;" parent="1" vertex="1">
           <mxGeometry x="989.38" y="143.75" width="16.25" height="786.25" as="geometry" />
         </mxCell>
-        <mxCell id="DJqlXa8Qvgp3mCInFXNU-48" value="for" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="977.5" y="510" width="40" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="DJqlXa8Qvgp3mCInFXNU-49" value="broker" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="965.5" y="685" width="99.5" height="60" as="geometry" />
+          <mxGeometry x="960" y="685" width="99.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DJqlXa8Qvgp3mCInFXNU-50" value="pre-runner.run" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="610" y="560" width="135" height="60" as="geometry" />
@@ -320,6 +317,27 @@
             <mxPoint x="1240" y="910" as="sourcePoint" />
             <mxPoint x="1290" y="860" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Dj0rJpAY_3SVC8K4VT7N-1" value="实时数据采集" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="1292.5" y="685" width="89.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dj0rJpAY_3SVC8K4VT7N-2" value="" style="endArrow=classic;startArrow=classic;html=1;fontSize=16;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1336.75" y="685" as="sourcePoint" />
+            <mxPoint x="1336.75" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dj0rJpAY_3SVC8K4VT7N-6" value="异步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1292.5" y="650" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Dj0rJpAY_3SVC8K4VT7N-7" value="" style="endArrow=classic;html=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1290" y="715" as="sourcePoint" />
+            <mxPoint x="1100" y="715" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dj0rJpAY_3SVC8K4VT7N-8" value="更新缓存里的实时行情、账户信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="720" width="120" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
