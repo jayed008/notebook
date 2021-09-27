@@ -1,4 +1,10 @@
-[toc]
+- [Bayes theorem](#bayes-theorem)
+- [Bernoulli distribution & beta distribution](#bernoulli-distribution--beta-distribution)
+- [Multinomial distribution & dirichlet distribution](#multinomial-distribution--dirichlet-distribution)
+- [结论](#结论)
+- [附录](#附录)
+  - [Beta distribution](#beta-distribution)
+  - [Multinomial distribution](#multinomial-distribution)
 
 ## Bayes theorem
 $$
