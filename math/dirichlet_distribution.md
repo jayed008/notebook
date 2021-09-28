@@ -27,6 +27,6 @@ Beta分布是二项式分布的共轭分布，Dirichlet分布是多项式分布�
 
 ## 附录
 ### Beta distribution
-
+对于一个我们不知道概率是什么，而又有一些合理的猜测时，beta分布能很好的作为一个表示概率的概率分布。beta分布是二项分布的共轭先验（Conjugate_prior）分布。所谓共轭先验就是先验分布是beta分布，而后验分布同样是beta分布。
 
 ### Multinomial distribution
