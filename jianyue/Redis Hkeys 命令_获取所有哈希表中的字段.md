@@ -11,7 +11,7 @@ redis 127.0.0.1:6379> HKEYS KEY_NAME FIELD_NAME INCR_BY_NUMBER
 
 ### 可用版本
 
->= 2.0.0
+\>= 2.0.0
 
 ### 返回值
 
