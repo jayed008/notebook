@@ -1,8 +1,3 @@
-> 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 [www.redis.net.cn](https://www.redis.net.cn/order/3570.html)
-
-> Redis 哈希 (Hash)
-
- [![](https://www.redis.net.cn/Image/up.gif) Redis 哈希 (Hash)](https://www.redis.net.cn/tutorial/3509.html "Redis 哈希(Hash)")
 
 Redis Hkeys 命令用于获取哈希表中的所有字段名。
 
@@ -33,5 +28,3 @@ redis 127.0.0.1:6379> HKEYS myhash
 1) "field1"
 2) "field2"
 ```
-
- [![](https://www.redis.net.cn/Image/up.gif) Redis 哈希 (Hash)](https://www.redis.net.cn/tutorial/3509.html "Redis 哈希(Hash)")
